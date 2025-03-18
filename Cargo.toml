@@ -1,6 +1,6 @@
 [package]
 name = "cmsis-dsp-sys"
-version = "0.3.1"
+version = "0.3.2"
 authors = ["Jacob Rosenthal <jacobrosenthal@gmail.com>"]
 edition = "2018"
 links = "cmsis-dsp"
@@ -17,8 +17,8 @@ cty = "0.2.2"
 
 [build-dependencies]
 zip = { version = "0.6.6", default-features = false, features = ["deflate"] }
-bindgen = "0.69.1"
-reqwest = { version = "0.11.22", default-features = false, features = [
+bindgen = "0.69.5"
+reqwest = { version = "0.11.27", default-features = false, features = [
     "blocking",
     "default-tls"
 ] }
